@@ -251,12 +251,6 @@ We traded bandwidth for freedom, or to be more exact we traded bandwidth for fre
 
 no, like...no.
 
----
-
-FBI has been going after our bittie$. If you want to help, drop some penniez here:
-`1Kx4wVYBvbL6khNhA3SmJKnT8ZLeJHPBxA` < bitcoins
-
----
 
 # #lulzlabs
 2014 Anonymous. All Your Base Are Belong To Us. 
