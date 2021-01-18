@@ -1026,7 +1026,7 @@ sub sendingshits {
 	$lovelymsg = compress($lovelymsg);
 
 
-	if ($mustEncrypt eq "yeahbabygetthisoneintoyourassFCCandNSA") {
+	if ($mustEncrypt eq "yeahgotgetthisoneintoyourheadFCCandNSA") {
 
 
 	   my $cipher = Crypt::CBC->new(
@@ -2438,7 +2438,7 @@ sub msg_advanced {
 
 		 if ($cgi->param('encryption') && $cgi->param('encryption') eq "encrypt") {
 			 if ($mustEncrypt eq "nones") {
-			 $mustEncrypt = "yeahbabygetthisoneintoyourassFCCandNSA";
+			 $mustEncrypt = "yeahgotgetthisoneintoyourheadFCCandNSA";
 			 $modifiedoptions = "yeah";
 		 }
 			 if ($cgi->param('passphrase') ne $passphrase) {
@@ -2448,7 +2448,7 @@ sub msg_advanced {
 
 		      }
 			 }else{
-				 if ($mustEncrypt eq "yeahbabygetthisoneintoyourassFCCandNSA") {
+				 if ($mustEncrypt eq "yeahgotgetthisoneintoyourheadFCCandNSA") {
 				 $mustEncrypt = "nones";
 				 $modifiedoptions = "yeah";
 			 }
@@ -2542,7 +2542,7 @@ sub msg_advanced {
 
     <textarea name="postfield" rows="6" cols="120" placeholder="Post A Message Here (280 characters max)" maxlength=280 ></textarea></br></tr>
     <tr><td><input type="submit" style="height: 45px; width: 170px" value="Send Your Message" >};
-    if ($mustEncrypt eq "yeahbabygetthisoneintoyourassFCCandNSA") {
+    if ($mustEncrypt eq "yeahgotgetthisoneintoyourheadFCCandNSA") {
 		print qq{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="encryption" value="encrypt" checked>};
 		}else{
 			print qq{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="encryption" value="encrypt" >};
@@ -2780,7 +2780,7 @@ sub airchat_settings {
 
 	 		 if ($cgi->param('encryption') && $cgi->param('encryption') eq "encrypt") {
 			 if ($mustEncrypt eq "nones") {
-			 $mustEncrypt = "yeahbabygetthisoneintoyourassFCCandNSA";
+			 $mustEncrypt = "yeahgotgetthisoneintoyourheadFCCandNSA";
 			 $modifiedoptions = "yeah";
 		 }
 			 if ($cgi->param('passphrase') ne $passphrase) {
@@ -2790,7 +2790,7 @@ sub airchat_settings {
 
 		      }
 			 }else{
-				 if ($mustEncrypt eq "yeahbabygetthisoneintoyourassFCCandNSA") {
+				 if ($mustEncrypt eq "yeahgotgetthisoneintoyourheadFCCandNSA") {
 				 $mustEncrypt = "nones";
 				 $modifiedoptions = "yeah";
 			 }
@@ -3033,7 +3033,7 @@ sub airchat_settings {
 
      print qq{<h3> Data Transmission Options</h3></br> <tr><td>};
 
-   if ($mustEncrypt eq "yeahbabygetthisoneintoyourassFCCandNSA") {
+   if ($mustEncrypt eq "yeahgotgetthisoneintoyourheadFCCandNSA") {
 		print qq{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="encryption" value="encrypt" checked />};
 		}else{
 			print qq{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="encryption" value="encrypt" >};
