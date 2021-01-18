@@ -45,7 +45,7 @@ AirChat is not only our modest draft or proposal for such a dream, but it is a w
 ## User Cases
 
 
-- People who were protesting against their govt resulting in the their internet being cut off. Even worse govt decided to fuck with their cellphones networks too. They need basic communication tools to spread news and updates about their conditions, and with the aim to eventually relay that information to/from the internet when at least one of them is able to get a working internet connection.
+- People who were protesting against their govt resulting in the their internet being cut off. Even worse govt decided to mess with their cellphones networks too. They need basic communication tools to spread news and updates about their conditions, and with the aim to eventually relay that information to/from the internet when at least one of them is able to get a working internet connection.
 
 - NGOs and medical teams working in Africa under poor conditions who want to build some basic communication's infrastructure to coordinate efforts like the delivery of medication and food or to update on local conditions without being intercepted by regional armed groups etc.
 
@@ -78,7 +78,7 @@ we also thought about a Wifi interconnected cellphone net approach, but the cove
 
 We saw people working on different mesh related projects and we thought 'One solution shouldn't discard another one but it should try to complement it, to add interoperability and to allow heterogeneous systems'. As different serious projects are looking for solutions based on 802.11 standards we said, 'WTF lets try to reinvent the wheel for exploration and fun'.
 
-But to reinventing the wheel you need freedom. a freedom which we don't have much of in on our world of telecommunications, which is over-regulated by evil organizations like the FCC and similars shits around the world. So we choose the good ol' trusted ancient technology to start free.
+But to reinventing the wheel you need freedom. a freedom which we don't have much of in on our world of telecommunications, which is over-regulated by evil organizations like the FCC and similars organizations around the world. So we choose the good ol' trusted ancient technology to start free.
 
 Radio transceivers.
 Yeah, these shits rock.
@@ -101,7 +101,7 @@ Each node only  cares for what is being received. No hardware identification, no
 Packets targeting specific addresses are encrypted and they must be decrypted by the private key only the target possesses. Anyone trying to spoof an address will not be able to decrypt the packet. Symmetrical encrypted packets are available also and can be used as an extra layer too. General non-encrypted packets also available by default for general broadcasting and community discussion. (also for those people on some countries where laws forbid encryption on certain radio frequencies, etc).
 
 > *Disclaimer:*
-We don't give a fucking shit about prohibitions over the use of encryption. fuck you NSA.
+We don't give a care about prohibitions over the use of encryption. I bite my thumb at you NSA.
 
 So the choice is yours. You can use it with encryption or without. Encryption is part of the routing solution approach, non encrypted packets are linked to general broadcast. (remember that when you are in the middle of a massive crisis you probably wouldn't care much about the stupid FCC)
 
@@ -115,7 +115,7 @@ So far we have played interactive chess games with people at 180 miles away. we 
 All without phones or internet access.
 
 So how does it feel when you are communicating freely?
-it feels great...fucking great.
+it feels great....
 
 
 ##Quick Start
